@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Forest todo</title>
+</head>
+
+<body>
+    <h1>Forest order process</h1>
+    <ol>
+        <li>Rendelésnek sorszámot adni</li>
+        <li>Rendelésen verziókat kiemelni</li>
+        <li>Rendelésen eltérő dátumokat kiemelni</li>
+        <li>Verzió ellenőrző makró
+            <ol type="a">
+                <li>Rajzszám, verzió, darabszám bevitel</li>
+                <li>Verzió ellenőrzés makró futtatása
+                    <ol type="i">
+                        <li>ÚJ ELEM esetén <a href="new_item.html">lépések »</a></li>
+                        <li>ÚJ VERZIÓ esetén <a href="new_version.html">lépések »</a></li>
+                    </ol>
+                </li>
+            </ol>
+        </li>
+        <li>Order xls
+            <ol>
+                <li>Version checker adatokat átmásolni</li>
+                <li>Ahol a rendelésben "NEW" felirat van: <span class="mark">"Új"</span> jelölés</li>
+                <li>Ahol a rendelésben "NV, F" felirat van
+                    <ol type="i">
+                        <li><span class="mark">"NV"</span> jelölés</li>
+                        <li>Megjegyzésbe: <span class="mark">Új verziót bekérni</span> </li>
+                    </ol>
+                </li>
+                <li>Sürgős tételek esetén <span class="mark">"S"</span> jelölés</li>
+            </ol>
+        </li>
+        <li>Forest-Terex xls: price update ellenőrzés <a href="price_update.html">lépések »</a></li>
+        <li> Order xls: verzió, felületkezelés ellenőrzés</li>
+        <li>Rendelésen reklamált tételt jelölni: <span class="mark">"R"</span></li>
+    </ol>
+</body>
+
+</html>

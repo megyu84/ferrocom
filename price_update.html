@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Price update</title>
+</head>
+
+<body>
+    <h1>Ár frissítési lépések</h1>
+    <h2>Rendelés feldolgozásánál</h2>
+    <ol>
+        <li>Storing Forest-Terex xls
+            <ol>
+                <li>Kódokat átmásolni order xls-ből</li>
+                <li>Régi dátum esetén ár ellenőrzés</li>
+                <li>Rendelési számot beírni</li>
+                <li>Régi árakat kitölteni</li>
+                <li>Nyomtatás</li>
+            </ol>
+        </li>
+        <li>All updates xls
+            <ol>
+                <li>Tételeket átmásolni</li>
+                <li>Sorszámozás</li>
+            </ol>
+        </li>
+        <li>Sorszám a kinyomtatott papírra</li>
+        <li>Storing Forest-Terex xls: dátum frissítés</li>
+        <li>Rendelésre
+            <ol>
+                <li><span class="mark">"F"</span> jelölés</li>
+                <li>Árat áthúzni és <span class="mark">"?"</span></li>
+            </ol>
+        </li>
+        <li>Order xls
+            <ol>
+                <li><span class="mark">"F"</span> jelölés</li>
+                <li>Megjegyzésbe: <span class="mark">ár ell.</span></li>
+            </ol>
+        </li>
+        <li>Rajzokat és árazásokat elővenni, ár ell.</li>
+        <a href="index.html">Vissza a 7-es lépéshez</a>
+    </ol>
+    <h2>Árfrissítés után</h2>
+    <ol>
+        <li>All updates xls
+            <ol>
+                <li>Árazás-Árajánlat tabon kiszámítani az új árakat</li>
+                <li>Új árakat beírni</li>
+                <li>Email-hez táblázatot generálni</li>
+                <li>4 lépést végrehajtani</li>
+            </ol>
+        </li>
+        <li> Rendelésre
+            <ol>
+                <li>Régi árat áthúzni</li>
+                <li>Új árat beírni + <span class="mark">(new price)</span> + <span class="mark">"?"</span></li>
+            </ol>
+        </li>
+        <li>Order xls
+            <ol>
+                <li>Új árat beírni</li>
+                <li>Megjegyzésbe: <span class="mark">új ár, várjuk a választ</span></li>
+            </ol>
+        </li>
+    </ol>
+    <h2>Ha Forest válaszolt</h2>
+    <ol>
+        <li>All updates xls: <span class="mark">APPROVED</span></li>
+        <li>Rendelésre
+            <ol>
+                <li>"?" helyett <span class="mark">"✓"</span></li>
+                <li>"F" jelölést kiradírozni</li>
+            </ol>
+        </li>
+        <li>Order xls
+            <ol>
+                <li>"F" jelölést kitörölni</li>
+                <li>Megjegyzésbe: <span class="mark">új ár elfogadva</span></li>
+            </ol>
+        </li>
+    </ol>
+    <a href="index.html">Vissza a főoldalra</a>
+</body>
+
+</html>
